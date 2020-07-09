@@ -1,0 +1,56 @@
+.blank_row {
+  height: 5em !important; /* overwrites any other rules */
+  background-color: #ffffff;
+}
+
+button {
+  min-width: 4.75em;
+}
+
+.btn-danger {
+  background-color: rgb(187, 0, 0) !important;
+  border: rgb(187, 0, 0) !important;
+}
+
+.hairdresser-header:hover {
+  cursor: pointer;
+  background-color: #5a5a5a;
+  color: rgb(236, 236, 236);
+  transition: 0.3s;
+}
+
+.show-hide:hover {
+  cursor: pointer;
+  background-color: #1a5c88;
+  color: rgb(236, 236, 236);
+  transition: 0.3s;
+}
+
+.backBtn {
+  margin-bottom: 2em;
+}
+
+td {
+  padding: 3px !important;
+  height: 2em !important;
+}
+
+p {
+  position: relative !important;
+  margin: 0 0 !important;
+  max-width: 1px !important;
+  white-space: nowrap;
+}
+
+td {
+  max-width: 6em !important;
+  overflow: hidden;
+}
+
+.modalButtons {
+  margin-left: 1em;
+}
+
+#splitConfirm {
+  display: none;
+}
